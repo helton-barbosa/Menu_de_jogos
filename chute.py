@@ -3,7 +3,7 @@ import random
 
 def jogar():
     print("******************************************")
-    print("*******BEM-VINDO AO JOGO DO CHUTE!********")
+    print("**     BEM-VINDO AO JOGO DO CHUTE!      **")
     print("******************************************")
 
     numero_secreto = random.randrange(1, 100)
