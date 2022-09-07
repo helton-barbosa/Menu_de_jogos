@@ -4,7 +4,7 @@ import forca
 
 def escolhe_jogo():
     print("******************************************")
-    print("*************ESCOLHA O JOGO!**************")
+    print("**           ESCOLHA O JOGO!            **")
     print("******************************************")
 
     print("(1) Forca | (2) Chute")
