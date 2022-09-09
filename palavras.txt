@@ -2,3 +2,5 @@ banana
 melancia
 morango
 maça
+kiwi
+tamarindo
