@@ -9,3 +9,5 @@ laranja
 uva
 goiaba
 caju
+carambola
+amora
