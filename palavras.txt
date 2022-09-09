@@ -4,3 +4,8 @@ morango
 maça
 kiwi
 tamarindo
+pequi
+laranja
+uva
+goiaba
+caju
