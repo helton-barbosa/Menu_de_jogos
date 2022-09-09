@@ -2,7 +2,6 @@ import random
 
 
 def jogar():
-
     abertura()
     palavra_secreta = carrega_palavra_secreta()
     letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
@@ -76,43 +75,43 @@ def desenha_forca(erros):
     print("  _______     ")
     print(" |/      |    ")
 
-    if(erros == 1):
+    if erros == 1:
         print(" |      (_)   ")
         print(" |            ")
         print(" |            ")
         print(" |            ")
 
-    if(erros == 2):
+    if erros == 2:
         print(" |      (_)   ")
         print(" |      \     ")
         print(" |            ")
         print(" |            ")
 
-    if(erros == 3):
+    if erros == 3:
         print(" |      (_)   ")
         print(" |      \|    ")
         print(" |            ")
         print(" |            ")
 
-    if(erros == 4):
+    if erros == 4:
         print(" |      (_)   ")
         print(" |      \|/   ")
         print(" |            ")
         print(" |            ")
 
-    if(erros == 5):
+    if erros == 5:
         print(" |      (_)   ")
         print(" |      \|/   ")
         print(" |       |    ")
         print(" |            ")
 
-    if(erros == 6):
+    if erros == 6:
         print(" |      (_)   ")
         print(" |      \|/   ")
         print(" |       |    ")
         print(" |      /     ")
 
-    if (erros == 7):
+    if erros == 7:
         print(" |      (_)   ")
         print(" |      \|/   ")
         print(" |       |    ")
@@ -145,6 +144,7 @@ def marca_chute_correto(chute, letras_acertadas, palavra_secreta):
             letras_acertadas[index] = letra
         index += 1
 
+
 def pede_chute():
     chute = input("Qual a letra? ")
     chute = chute.strip().upper()
@@ -157,4 +157,3 @@ def inicializa_letras_acertadas(palavra):
 
 if __name__ == "__main__":
     jogar()
-
